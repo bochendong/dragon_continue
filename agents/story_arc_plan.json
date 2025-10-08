@@ -1,0 +1,130 @@
+[
+  {
+    "arc_name": "第一学期：龙族觉醒",
+    "arc_number": 1,
+    "start_chapter": 1,
+    "end_chapter": 25,
+    "status": "completed",
+    "arc_type": "adventure",
+    "main_theme": "身份觉醒与第一次冒险",
+    "key_events": [
+      "收到卡塞尔学院邀请",
+      "血统测试成为S级",
+      "三峡任务",
+      "对抗龙王诺顿",
+      "与诺诺感情线开始",
+      "路鸣泽契约伏笔"
+    ],
+    "character_focus": [
+      "路明非",
+      "诺诺",
+      "楚子航",
+      "恺撒"
+    ],
+    "setting": "卡塞尔学院、三峡",
+    "tone": "热血、成长、略带悲凉",
+    "story_phase": "completed"
+  },
+  {
+    "arc_name": "暑假回国：平凡与不凡的交界",
+    "arc_number": 2,
+    "start_chapter": 26,
+    "end_chapter": 40,
+    "status": "active",
+    "arc_type": "daily-transition",
+    "main_theme": "双重身份的矛盾与家庭关系",
+    "key_events": [
+      "学期结束，准备回国",
+      "与家人团聚的尴尬",
+      "高中同学聚会",
+      "陈雯雯的新生活",
+      "赵孟华的炫耀",
+      "意外发现国内的龙族线索",
+      "小型事件：保护家人或朋友",
+      "路鸣泽的再次出现",
+      "做出重要选择"
+    ],
+    "character_focus": [
+      "路明非",
+      "陈雯雯",
+      "赵孟华",
+      "路明非父母",
+      "路鸣泽"
+    ],
+    "setting": "中国国内、路明非家乡、高中母校",
+    "tone": "日常、温情、暗流涌动",
+    "story_phase": "beginning",
+    "sub_phases": [
+      {
+        "phase": "学期结束与告别",
+        "chapters": [
+          26,
+          27,
+          28
+        ],
+        "focus": "卡塞尔学院的日常生活和离别"
+      },
+      {
+        "phase": "回国与家庭",
+        "chapters": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "focus": "与家人的相处，双重身份的矛盾"
+      },
+      {
+        "phase": "同学聚会篇",
+        "chapters": [
+          33,
+          34,
+          35
+        ],
+        "focus": "面对陈雯雯和高中同学，心境对比"
+      },
+      {
+        "phase": "危机萌芽",
+        "chapters": [
+          36,
+          37,
+          38
+        ],
+        "focus": "发现国内的龙族线索，小型事件"
+      },
+      {
+        "phase": "抉择与转折",
+        "chapters": [
+          39,
+          40
+        ],
+        "focus": "路鸣泽出现，做出选择，准备返校"
+      }
+    ]
+  },
+  {
+    "arc_name": "第二学期：更深的阴谋",
+    "arc_number": 3,
+    "start_chapter": 41,
+    "end_chapter": 65,
+    "status": "planned",
+    "arc_type": "adventure",
+    "main_theme": "揭开更多真相，面对更强敌人",
+    "key_events": [
+      "返回学院",
+      "新的任务",
+      "与夏弥的关系发展",
+      "龙王身份的部分揭露",
+      "更危险的对抗"
+    ],
+    "character_focus": [
+      "路明非",
+      "夏弥",
+      "楚子航",
+      "恺撒"
+    ],
+    "setting": "卡塞尔学院、新任务地点",
+    "tone": "紧张、悬疑、情感纠葛",
+    "story_phase": "planned"
+  }
+]
