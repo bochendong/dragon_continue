@@ -1,0 +1,946 @@
+{
+  "totalChapters": 134,
+  "originalChapters": 131,
+  "aiGeneratedChapters": 3,
+  "generatedAt": "2025-10-09T07:59:59.804Z",
+  "chapters": [
+    {
+      "id": 1,
+      "filename": "001_楔子：白帝城.txt",
+      "title": "楔子：白帝城",
+      "wordCount": 1987,
+      "isAIGenerated": false
+    },
+    {
+      "id": 2,
+      "filename": "002_未知章节.txt",
+      "title": "第2章",
+      "wordCount": 1993,
+      "isAIGenerated": false
+    },
+    {
+      "id": 3,
+      "filename": "003_未知章节.txt",
+      "title": "第3章",
+      "wordCount": 1795,
+      "isAIGenerated": false
+    },
+    {
+      "id": 4,
+      "filename": "004_未知章节.txt",
+      "title": "第4章",
+      "wordCount": 1915,
+      "isAIGenerated": false
+    },
+    {
+      "id": 5,
+      "filename": "005_未知章节.txt",
+      "title": "第5章",
+      "wordCount": 1947,
+      "isAIGenerated": false
+    },
+    {
+      "id": 6,
+      "filename": "006_未知章节.txt",
+      "title": "第6章",
+      "wordCount": 1873,
+      "isAIGenerated": false
+    },
+    {
+      "id": 7,
+      "filename": "007_未知章节.txt",
+      "title": "第7章",
+      "wordCount": 1811,
+      "isAIGenerated": false
+    },
+    {
+      "id": 8,
+      "filename": "008_未知章节.txt",
+      "title": "第8章",
+      "wordCount": 1961,
+      "isAIGenerated": false
+    },
+    {
+      "id": 9,
+      "filename": "009_未知章节.txt",
+      "title": "第9章",
+      "wordCount": 1958,
+      "isAIGenerated": false
+    },
+    {
+      "id": 10,
+      "filename": "010_未知章节.txt",
+      "title": "第10章",
+      "wordCount": 1993,
+      "isAIGenerated": false
+    },
+    {
+      "id": 11,
+      "filename": "011_未知章节.txt",
+      "title": "第11章",
+      "wordCount": 1908,
+      "isAIGenerated": false
+    },
+    {
+      "id": 12,
+      "filename": "012_未知章节.txt",
+      "title": "第12章",
+      "wordCount": 1857,
+      "isAIGenerated": false
+    },
+    {
+      "id": 13,
+      "filename": "013_未知章节.txt",
+      "title": "第13章",
+      "wordCount": 1948,
+      "isAIGenerated": false
+    },
+    {
+      "id": 14,
+      "filename": "014_未知章节.txt",
+      "title": "第14章",
+      "wordCount": 1951,
+      "isAIGenerated": false
+    },
+    {
+      "id": 15,
+      "filename": "015_未知章节.txt",
+      "title": "第15章",
+      "wordCount": 1887,
+      "isAIGenerated": false
+    },
+    {
+      "id": 16,
+      "filename": "016_未知章节.txt",
+      "title": "第16章",
+      "wordCount": 1999,
+      "isAIGenerated": false
+    },
+    {
+      "id": 17,
+      "filename": "017_未知章节.txt",
+      "title": "第17章",
+      "wordCount": 1953,
+      "isAIGenerated": false
+    },
+    {
+      "id": 18,
+      "filename": "018_未知章节.txt",
+      "title": "第18章",
+      "wordCount": 1907,
+      "isAIGenerated": false
+    },
+    {
+      "id": 19,
+      "filename": "019_未知章节.txt",
+      "title": "第19章",
+      "wordCount": 1917,
+      "isAIGenerated": false
+    },
+    {
+      "id": 20,
+      "filename": "020_未知章节.txt",
+      "title": "第20章",
+      "wordCount": 1976,
+      "isAIGenerated": false
+    },
+    {
+      "id": 21,
+      "filename": "021_未知章节.txt",
+      "title": "第21章",
+      "wordCount": 1970,
+      "isAIGenerated": false
+    },
+    {
+      "id": 22,
+      "filename": "022_未知章节.txt",
+      "title": "第22章",
+      "wordCount": 1989,
+      "isAIGenerated": false
+    },
+    {
+      "id": 23,
+      "filename": "023_未知章节.txt",
+      "title": "第23章",
+      "wordCount": 1996,
+      "isAIGenerated": false
+    },
+    {
+      "id": 24,
+      "filename": "024_未知章节.txt",
+      "title": "第24章",
+      "wordCount": 1931,
+      "isAIGenerated": false
+    },
+    {
+      "id": 25,
+      "filename": "025_未知章节.txt",
+      "title": "第25章",
+      "wordCount": 1951,
+      "isAIGenerated": false
+    },
+    {
+      "id": 26,
+      "filename": "026_未知章节.txt",
+      "title": "第26章",
+      "wordCount": 1458,
+      "isAIGenerated": false
+    },
+    {
+      "id": 27,
+      "filename": "027_未知章节.txt",
+      "title": "第27章",
+      "wordCount": 1965,
+      "isAIGenerated": false
+    },
+    {
+      "id": 28,
+      "filename": "028_未知章节.txt",
+      "title": "第28章",
+      "wordCount": 1999,
+      "isAIGenerated": false
+    },
+    {
+      "id": 29,
+      "filename": "029_未知章节.txt",
+      "title": "第29章",
+      "wordCount": 1924,
+      "isAIGenerated": false
+    },
+    {
+      "id": 30,
+      "filename": "030_未知章节.txt",
+      "title": "第30章",
+      "wordCount": 1991,
+      "isAIGenerated": false
+    },
+    {
+      "id": 31,
+      "filename": "031_未知章节.txt",
+      "title": "第31章",
+      "wordCount": 1922,
+      "isAIGenerated": false
+    },
+    {
+      "id": 32,
+      "filename": "032_未知章节.txt",
+      "title": "第32章",
+      "wordCount": 1988,
+      "isAIGenerated": false
+    },
+    {
+      "id": 33,
+      "filename": "033_未知章节.txt",
+      "title": "第33章",
+      "wordCount": 1946,
+      "isAIGenerated": false
+    },
+    {
+      "id": 34,
+      "filename": "034_未知章节.txt",
+      "title": "第34章",
+      "wordCount": 1958,
+      "isAIGenerated": false
+    },
+    {
+      "id": 35,
+      "filename": "035_未知章节.txt",
+      "title": "第35章",
+      "wordCount": 1982,
+      "isAIGenerated": false
+    },
+    {
+      "id": 36,
+      "filename": "036_未知章节.txt",
+      "title": "第36章",
+      "wordCount": 1890,
+      "isAIGenerated": false
+    },
+    {
+      "id": 37,
+      "filename": "037_未知章节.txt",
+      "title": "第37章",
+      "wordCount": 1901,
+      "isAIGenerated": false
+    },
+    {
+      "id": 38,
+      "filename": "038_未知章节.txt",
+      "title": "第38章",
+      "wordCount": 1962,
+      "isAIGenerated": false
+    },
+    {
+      "id": 39,
+      "filename": "039_未知章节.txt",
+      "title": "第39章",
+      "wordCount": 1995,
+      "isAIGenerated": false
+    },
+    {
+      "id": 40,
+      "filename": "040_未知章节.txt",
+      "title": "第40章",
+      "wordCount": 1958,
+      "isAIGenerated": false
+    },
+    {
+      "id": 41,
+      "filename": "041_未知章节.txt",
+      "title": "第41章",
+      "wordCount": 1927,
+      "isAIGenerated": false
+    },
+    {
+      "id": 42,
+      "filename": "042_未知章节.txt",
+      "title": "第42章",
+      "wordCount": 1963,
+      "isAIGenerated": false
+    },
+    {
+      "id": 43,
+      "filename": "043_未知章节.txt",
+      "title": "第43章",
+      "wordCount": 1967,
+      "isAIGenerated": false
+    },
+    {
+      "id": 44,
+      "filename": "044_未知章节.txt",
+      "title": "第44章",
+      "wordCount": 1965,
+      "isAIGenerated": false
+    },
+    {
+      "id": 45,
+      "filename": "045_未知章节.txt",
+      "title": "第45章",
+      "wordCount": 1915,
+      "isAIGenerated": false
+    },
+    {
+      "id": 46,
+      "filename": "046_未知章节.txt",
+      "title": "第46章",
+      "wordCount": 1985,
+      "isAIGenerated": false
+    },
+    {
+      "id": 47,
+      "filename": "047_未知章节.txt",
+      "title": "第47章",
+      "wordCount": 1933,
+      "isAIGenerated": false
+    },
+    {
+      "id": 48,
+      "filename": "048_未知章节.txt",
+      "title": "第48章",
+      "wordCount": 1889,
+      "isAIGenerated": false
+    },
+    {
+      "id": 49,
+      "filename": "049_未知章节.txt",
+      "title": "第49章",
+      "wordCount": 1870,
+      "isAIGenerated": false
+    },
+    {
+      "id": 50,
+      "filename": "050_未知章节.txt",
+      "title": "第50章",
+      "wordCount": 1939,
+      "isAIGenerated": false
+    },
+    {
+      "id": 51,
+      "filename": "051_未知章节.txt",
+      "title": "第51章",
+      "wordCount": 1927,
+      "isAIGenerated": false
+    },
+    {
+      "id": 52,
+      "filename": "052_未知章节.txt",
+      "title": "第52章",
+      "wordCount": 1928,
+      "isAIGenerated": false
+    },
+    {
+      "id": 53,
+      "filename": "053_未知章节.txt",
+      "title": "第53章",
+      "wordCount": 1993,
+      "isAIGenerated": false
+    },
+    {
+      "id": 54,
+      "filename": "054_未知章节.txt",
+      "title": "第54章",
+      "wordCount": 1943,
+      "isAIGenerated": false
+    },
+    {
+      "id": 55,
+      "filename": "055_未知章节.txt",
+      "title": "第55章",
+      "wordCount": 1986,
+      "isAIGenerated": false
+    },
+    {
+      "id": 56,
+      "filename": "056_未知章节.txt",
+      "title": "第56章",
+      "wordCount": 1874,
+      "isAIGenerated": false
+    },
+    {
+      "id": 57,
+      "filename": "057_未知章节.txt",
+      "title": "第57章",
+      "wordCount": 1988,
+      "isAIGenerated": false
+    },
+    {
+      "id": 58,
+      "filename": "058_未知章节.txt",
+      "title": "第58章",
+      "wordCount": 1966,
+      "isAIGenerated": false
+    },
+    {
+      "id": 59,
+      "filename": "059_未知章节.txt",
+      "title": "第59章",
+      "wordCount": 1902,
+      "isAIGenerated": false
+    },
+    {
+      "id": 60,
+      "filename": "060_未知章节.txt",
+      "title": "第60章",
+      "wordCount": 1971,
+      "isAIGenerated": false
+    },
+    {
+      "id": 61,
+      "filename": "061_未知章节.txt",
+      "title": "第61章",
+      "wordCount": 1992,
+      "isAIGenerated": false
+    },
+    {
+      "id": 62,
+      "filename": "062_未知章节.txt",
+      "title": "第62章",
+      "wordCount": 1992,
+      "isAIGenerated": false
+    },
+    {
+      "id": 63,
+      "filename": "063_未知章节.txt",
+      "title": "第63章",
+      "wordCount": 1965,
+      "isAIGenerated": false
+    },
+    {
+      "id": 64,
+      "filename": "064_未知章节.txt",
+      "title": "第64章",
+      "wordCount": 1986,
+      "isAIGenerated": false
+    },
+    {
+      "id": 65,
+      "filename": "065_未知章节.txt",
+      "title": "第65章",
+      "wordCount": 1952,
+      "isAIGenerated": false
+    },
+    {
+      "id": 66,
+      "filename": "066_未知章节.txt",
+      "title": "第66章",
+      "wordCount": 1803,
+      "isAIGenerated": false
+    },
+    {
+      "id": 67,
+      "filename": "067_未知章节.txt",
+      "title": "第67章",
+      "wordCount": 1964,
+      "isAIGenerated": false
+    },
+    {
+      "id": 68,
+      "filename": "068_未知章节.txt",
+      "title": "第68章",
+      "wordCount": 1808,
+      "isAIGenerated": false
+    },
+    {
+      "id": 69,
+      "filename": "069_未知章节.txt",
+      "title": "第69章",
+      "wordCount": 1996,
+      "isAIGenerated": false
+    },
+    {
+      "id": 70,
+      "filename": "070_未知章节.txt",
+      "title": "第70章",
+      "wordCount": 2000,
+      "isAIGenerated": false
+    },
+    {
+      "id": 71,
+      "filename": "071_未知章节.txt",
+      "title": "第71章",
+      "wordCount": 1972,
+      "isAIGenerated": false
+    },
+    {
+      "id": 72,
+      "filename": "072_未知章节.txt",
+      "title": "第72章",
+      "wordCount": 1979,
+      "isAIGenerated": false
+    },
+    {
+      "id": 73,
+      "filename": "073_未知章节.txt",
+      "title": "第73章",
+      "wordCount": 1956,
+      "isAIGenerated": false
+    },
+    {
+      "id": 74,
+      "filename": "074_未知章节.txt",
+      "title": "第74章",
+      "wordCount": 1979,
+      "isAIGenerated": false
+    },
+    {
+      "id": 75,
+      "filename": "075_未知章节.txt",
+      "title": "第75章",
+      "wordCount": 1939,
+      "isAIGenerated": false
+    },
+    {
+      "id": 76,
+      "filename": "076_未知章节.txt",
+      "title": "第76章",
+      "wordCount": 1997,
+      "isAIGenerated": false
+    },
+    {
+      "id": 77,
+      "filename": "077_未知章节.txt",
+      "title": "第77章",
+      "wordCount": 1975,
+      "isAIGenerated": false
+    },
+    {
+      "id": 78,
+      "filename": "078_未知章节.txt",
+      "title": "第78章",
+      "wordCount": 1912,
+      "isAIGenerated": false
+    },
+    {
+      "id": 79,
+      "filename": "079_未知章节.txt",
+      "title": "第79章",
+      "wordCount": 1982,
+      "isAIGenerated": false
+    },
+    {
+      "id": 80,
+      "filename": "080_未知章节.txt",
+      "title": "第80章",
+      "wordCount": 1976,
+      "isAIGenerated": false
+    },
+    {
+      "id": 81,
+      "filename": "081_未知章节.txt",
+      "title": "第81章",
+      "wordCount": 1987,
+      "isAIGenerated": false
+    },
+    {
+      "id": 82,
+      "filename": "082_未知章节.txt",
+      "title": "第82章",
+      "wordCount": 1966,
+      "isAIGenerated": false
+    },
+    {
+      "id": 83,
+      "filename": "083_未知章节.txt",
+      "title": "第83章",
+      "wordCount": 1988,
+      "isAIGenerated": false
+    },
+    {
+      "id": 84,
+      "filename": "084_未知章节.txt",
+      "title": "第84章",
+      "wordCount": 1990,
+      "isAIGenerated": false
+    },
+    {
+      "id": 85,
+      "filename": "085_未知章节.txt",
+      "title": "第85章",
+      "wordCount": 1949,
+      "isAIGenerated": false
+    },
+    {
+      "id": 86,
+      "filename": "086_未知章节.txt",
+      "title": "第86章",
+      "wordCount": 1995,
+      "isAIGenerated": false
+    },
+    {
+      "id": 87,
+      "filename": "087_未知章节.txt",
+      "title": "第87章",
+      "wordCount": 1799,
+      "isAIGenerated": false
+    },
+    {
+      "id": 88,
+      "filename": "088_未知章节.txt",
+      "title": "第88章",
+      "wordCount": 1931,
+      "isAIGenerated": false
+    },
+    {
+      "id": 89,
+      "filename": "089_未知章节.txt",
+      "title": "第89章",
+      "wordCount": 1962,
+      "isAIGenerated": false
+    },
+    {
+      "id": 90,
+      "filename": "090_未知章节.txt",
+      "title": "第90章",
+      "wordCount": 1917,
+      "isAIGenerated": false
+    },
+    {
+      "id": 91,
+      "filename": "091_未知章节.txt",
+      "title": "第91章",
+      "wordCount": 1969,
+      "isAIGenerated": false
+    },
+    {
+      "id": 92,
+      "filename": "092_未知章节.txt",
+      "title": "第92章",
+      "wordCount": 1936,
+      "isAIGenerated": false
+    },
+    {
+      "id": 93,
+      "filename": "093_未知章节.txt",
+      "title": "第93章",
+      "wordCount": 1982,
+      "isAIGenerated": false
+    },
+    {
+      "id": 94,
+      "filename": "094_未知章节.txt",
+      "title": "第94章",
+      "wordCount": 1999,
+      "isAIGenerated": false
+    },
+    {
+      "id": 95,
+      "filename": "095_未知章节.txt",
+      "title": "第95章",
+      "wordCount": 1984,
+      "isAIGenerated": false
+    },
+    {
+      "id": 96,
+      "filename": "096_未知章节.txt",
+      "title": "第96章",
+      "wordCount": 1943,
+      "isAIGenerated": false
+    },
+    {
+      "id": 97,
+      "filename": "097_未知章节.txt",
+      "title": "第97章",
+      "wordCount": 1975,
+      "isAIGenerated": false
+    },
+    {
+      "id": 98,
+      "filename": "098_未知章节.txt",
+      "title": "第98章",
+      "wordCount": 1991,
+      "isAIGenerated": false
+    },
+    {
+      "id": 99,
+      "filename": "099_未知章节.txt",
+      "title": "第99章",
+      "wordCount": 1993,
+      "isAIGenerated": false
+    },
+    {
+      "id": 100,
+      "filename": "100_未知章节.txt",
+      "title": "第100章",
+      "wordCount": 1986,
+      "isAIGenerated": false
+    },
+    {
+      "id": 101,
+      "filename": "101_未知章节.txt",
+      "title": "第101章",
+      "wordCount": 1993,
+      "isAIGenerated": false
+    },
+    {
+      "id": 102,
+      "filename": "102_未知章节.txt",
+      "title": "第102章",
+      "wordCount": 1977,
+      "isAIGenerated": false
+    },
+    {
+      "id": 103,
+      "filename": "103_未知章节.txt",
+      "title": "第103章",
+      "wordCount": 1979,
+      "isAIGenerated": false
+    },
+    {
+      "id": 104,
+      "filename": "104_未知章节.txt",
+      "title": "第104章",
+      "wordCount": 1996,
+      "isAIGenerated": false
+    },
+    {
+      "id": 105,
+      "filename": "105_未知章节.txt",
+      "title": "第105章",
+      "wordCount": 1967,
+      "isAIGenerated": false
+    },
+    {
+      "id": 106,
+      "filename": "106_未知章节.txt",
+      "title": "第106章",
+      "wordCount": 1958,
+      "isAIGenerated": false
+    },
+    {
+      "id": 107,
+      "filename": "107_未知章节.txt",
+      "title": "第107章",
+      "wordCount": 1997,
+      "isAIGenerated": false
+    },
+    {
+      "id": 108,
+      "filename": "108_未知章节.txt",
+      "title": "第108章",
+      "wordCount": 1977,
+      "isAIGenerated": false
+    },
+    {
+      "id": 109,
+      "filename": "109_未知章节.txt",
+      "title": "第109章",
+      "wordCount": 1944,
+      "isAIGenerated": false
+    },
+    {
+      "id": 110,
+      "filename": "110_未知章节.txt",
+      "title": "第110章",
+      "wordCount": 1996,
+      "isAIGenerated": false
+    },
+    {
+      "id": 111,
+      "filename": "111_未知章节.txt",
+      "title": "第111章",
+      "wordCount": 1973,
+      "isAIGenerated": false
+    },
+    {
+      "id": 112,
+      "filename": "112_未知章节.txt",
+      "title": "第112章",
+      "wordCount": 1997,
+      "isAIGenerated": false
+    },
+    {
+      "id": 113,
+      "filename": "113_未知章节.txt",
+      "title": "第113章",
+      "wordCount": 1962,
+      "isAIGenerated": false
+    },
+    {
+      "id": 114,
+      "filename": "114_未知章节.txt",
+      "title": "第114章",
+      "wordCount": 1977,
+      "isAIGenerated": false
+    },
+    {
+      "id": 115,
+      "filename": "115_未知章节.txt",
+      "title": "第115章",
+      "wordCount": 2000,
+      "isAIGenerated": false
+    },
+    {
+      "id": 116,
+      "filename": "116_未知章节.txt",
+      "title": "第116章",
+      "wordCount": 1984,
+      "isAIGenerated": false
+    },
+    {
+      "id": 117,
+      "filename": "117_未知章节.txt",
+      "title": "第117章",
+      "wordCount": 1987,
+      "isAIGenerated": false
+    },
+    {
+      "id": 118,
+      "filename": "118_未知章节.txt",
+      "title": "第118章",
+      "wordCount": 1967,
+      "isAIGenerated": false
+    },
+    {
+      "id": 119,
+      "filename": "119_未知章节.txt",
+      "title": "第119章",
+      "wordCount": 1964,
+      "isAIGenerated": false
+    },
+    {
+      "id": 120,
+      "filename": "120_未知章节.txt",
+      "title": "第120章",
+      "wordCount": 1994,
+      "isAIGenerated": false
+    },
+    {
+      "id": 121,
+      "filename": "121_未知章节.txt",
+      "title": "第121章",
+      "wordCount": 1908,
+      "isAIGenerated": false
+    },
+    {
+      "id": 122,
+      "filename": "122_未知章节.txt",
+      "title": "第122章",
+      "wordCount": 1938,
+      "isAIGenerated": false
+    },
+    {
+      "id": 123,
+      "filename": "123_未知章节.txt",
+      "title": "第123章",
+      "wordCount": 1971,
+      "isAIGenerated": false
+    },
+    {
+      "id": 124,
+      "filename": "124_未知章节.txt",
+      "title": "第124章",
+      "wordCount": 1998,
+      "isAIGenerated": false
+    },
+    {
+      "id": 125,
+      "filename": "125_未知章节.txt",
+      "title": "第125章",
+      "wordCount": 1997,
+      "isAIGenerated": false
+    },
+    {
+      "id": 126,
+      "filename": "126_未知章节.txt",
+      "title": "第126章",
+      "wordCount": 1986,
+      "isAIGenerated": false
+    },
+    {
+      "id": 127,
+      "filename": "127_未知章节.txt",
+      "title": "第127章",
+      "wordCount": 1925,
+      "isAIGenerated": false
+    },
+    {
+      "id": 128,
+      "filename": "128_未知章节.txt",
+      "title": "第128章",
+      "wordCount": 1998,
+      "isAIGenerated": false
+    },
+    {
+      "id": 129,
+      "filename": "129_未知章节.txt",
+      "title": "第129章",
+      "wordCount": 1914,
+      "isAIGenerated": false
+    },
+    {
+      "id": 130,
+      "filename": "130_未知章节.txt",
+      "title": "第130章",
+      "wordCount": 1992,
+      "isAIGenerated": false
+    },
+    {
+      "id": 131,
+      "filename": "131_未知章节.txt",
+      "title": "第131章",
+      "wordCount": 654,
+      "isAIGenerated": false
+    },
+    {
+      "id": 132,
+      "filename": "132_未知章节.txt",
+      "title": "第132章",
+      "wordCount": 2523,
+      "isAIGenerated": true
+    },
+    {
+      "id": 133,
+      "filename": "133_未知章节.txt",
+      "title": "第133章",
+      "wordCount": 2485,
+      "isAIGenerated": true
+    },
+    {
+      "id": 134,
+      "filename": "134_未知章节.txt",
+      "title": "第134章",
+      "wordCount": 3421,
+      "isAIGenerated": true
+    }
+  ]
+}
