@@ -49,10 +49,38 @@ const ChapterListPage = () => {
     const loadChapters = async () => {
       try {
         setLoading(true);
-        const chapterList = [];
         
-        // 读取chapters_2000_words目录下的所有章节文件
-        // 从001开始，遇到不存在的文件就停止
+        console.log('🔍 开始加载章节列表...');
+        
+        // 首先尝试加载章节清单文件（构建时生成）
+        try {
+          const manifestResponse = await fetch('/chapter-manifest.json');
+          if (manifestResponse.ok) {
+            const manifest = await manifestResponse.json();
+            console.log(`✅ 从清单加载了 ${manifest.totalChapters} 个章节`);
+            
+            // 转换格式
+            const chapterList = manifest.chapters.map(ch => ({
+              id: ch.id,
+              title: ch.title,
+              wordCount: ch.wordCount,
+              chapter: ch.id === 1 ? '楔子' : `第${Math.ceil(ch.id/10)}幕`,
+              description: '点击阅读查看详细内容...',
+              isAIGenerated: ch.isAIGenerated,
+              filename: ch.filename
+            }));
+            
+            setChapters(chapterList);
+            setFilteredChapters(chapterList);
+            setLoading(false);
+            return;
+          }
+        } catch (manifestError) {
+          console.warn('⚠️ 清单文件加载失败，使用动态加载:', manifestError.message);
+        }
+        
+        // 清单加载失败，使用动态加载
+        const chapterList = [];
         let i = 1;
         while (true) {
           const fileNum = String(i).padStart(3, '0');
@@ -67,7 +95,9 @@ const ChapterListPage = () => {
           
           try {
             // 尝试读取文件
-            const response = await fetch(`/chapters_2000_words/${filename}`);
+            const url = `/chapters_2000_words/${encodeURIComponent(filename)}`;
+            console.log(`📖 加载章节 ${i}: ${url}`);
+            const response = await fetch(url);
             if (!response.ok) {
               // 如果文件不存在，停止读取
               console.log(`✅ 共加载了 ${chapterList.length} 个章节（001-${String(i-1).padStart(3, '0')}）`);
@@ -80,8 +110,12 @@ const ChapterListPage = () => {
             if (content.includes('<!DOCTYPE html>') || content.includes('<html')) {
               // 这是HTML页面，不是文本文件，说明文件不存在
               console.log(`✅ 共加载了 ${chapterList.length} 个章节（001-${String(i-1).padStart(3, '0')}）`);
+              console.log(`❌ 章节${i}返回了HTML，停止加载`);
               break;
             }
+            
+            console.log(`✅ 章节${i}加载成功`);
+
             
             // 解析章节内容
             const lines = content.split('\n');

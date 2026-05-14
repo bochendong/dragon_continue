@@ -1,12 +1,18 @@
-《龙族Ⅰ火之晨曦》第27章
-============================================================
-标题: 夏日归来：还是那个多余的人
-字数: 2485字
-生成时间: 2025-10-07T22:19:39.843408
-修订: 修正家庭关系描写
-============================================================
+#!/usr/bin/env python3
+"""
+重写第27章 - 体现路明非与叔叔婶婶的真实关系
+不是温馨，而是疏离、尴尬、寄人篱下
+"""
 
-第27章 夏日归来：还是那个多余的人
+import sys
+import os
+sys.path.append('.')
+
+import sqlite3
+from datetime import datetime
+
+# 新的第27章内容 - 更接近哈利波特式的家庭关系
+NEW_CHAPTER_27 = """第27章 夏日归来：还是那个多余的人
 
 路明非是被婶婶的声音吵醒的。
 
@@ -156,4 +162,93 @@
 
 两个多月。
 
-想想就觉得漫长。
+想想就觉得漫长。"""
+
+def rewrite_chapter_27():
+    """重写第27章"""
+    
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    plot_db = os.path.join(current_dir, 'database', 'plot_outline.db')
+    
+    # 1. 更新数据库
+    with sqlite3.connect(plot_db) as conn:
+        cursor = conn.cursor()
+        
+        cursor.execute('SELECT id FROM chapters WHERE chapter_number = 27')
+        result = cursor.fetchone()
+        
+        if result:
+            chapter_id = result[0]
+            cursor.execute('''
+                UPDATE chapters 
+                SET title = ?,
+                    notes = ?,
+                    summary = ?
+                WHERE id = ?
+            ''', (
+                "夏日归来：还是那个多余的人",
+                NEW_CHAPTER_27,
+                NEW_CHAPTER_27[:500] + "...",
+                chapter_id
+            ))
+            conn.commit()
+            print(f"✅ 数据库第27章已更新")
+    
+    # 2. 更新output文件
+    output_dir = os.path.join(current_dir, 'output')
+    import glob
+    chapter_27_files = glob.glob(os.path.join(output_dir, 'chapter_27_content_*.txt'))
+    
+    if chapter_27_files:
+        latest_file = max(chapter_27_files, key=os.path.getmtime)
+        with open(latest_file, 'w', encoding='utf-8') as f:
+            f.write(f"《龙族Ⅰ火之晨曦》第27章\n")
+            f.write("=" * 60 + "\n")
+            f.write(f"标题: 夏日归来：还是那个多余的人\n")
+            f.write(f"字数: {len(NEW_CHAPTER_27)}字\n")
+            f.write(f"生成时间: {datetime.now().isoformat()}\n")
+            f.write(f"修订: 修正家庭关系描写\n")
+            f.write("=" * 60 + "\n\n")
+            f.write(NEW_CHAPTER_27)
+        print(f"✅ Output文件已更新")
+    
+    # 3. 更新chapters_2000_words文件
+    chapters_dir = os.path.join(os.path.dirname(current_dir), 'chapters_2000_words')
+    standard_file = os.path.join(chapters_dir, '133_未知章节.txt')
+    
+    with open(standard_file, 'w', encoding='utf-8') as f:
+        f.write("《龙族Ⅰ火之晨曦》\n")
+        f.write("作者：江南\n")
+        f.write("\n")
+        f.write("═" * 50 + "\n")
+        f.write("\n")
+        f.write(NEW_CHAPTER_27)
+        f.write("\n\n")
+        
+        # 添加分隔线
+        for _ in range(50):
+            f.write("═\n\n")
+        
+        f.write(f"字数统计：{len(NEW_CHAPTER_27)} 字\n")
+        f.write(f"文件编号：133\n")
+        f.write(f"AI续写 | 修订版\n")
+    
+    print(f"✅ 标准格式文件已更新: chapters_2000_words/133_未知章节.txt")
+    
+    print("\n" + "=" * 60)
+    print("✅ 第27章重写完成！")
+    print("=" * 60)
+    print("\n关键改进：")
+    print("1. ❌ 删除了温馨家庭的错误描写")
+    print("2. ✅ 体现了寄人篱下的真实感觉")
+    print("3. ✅ 婶婶的态度：冷淡、算计、使唤")
+    print("4. ✅ 叔叔的态度：客气但疏离")
+    print("5. ✅ 路明非的心理：觉得自己多余")
+    print("6. ✅ 对比卡塞尔：那里至少有人看得见他")
+    print("7. ✅ '路鸣泽的哥哥'、'吃白饭的'梗")
+    print("8. ✅ 继续用小号戏弄路鸣泽")
+    print("9. ✅ 废柴和蔫儿坏的性格")
+
+if __name__ == "__main__":
+    rewrite_chapter_27()
+

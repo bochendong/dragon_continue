@@ -9,15 +9,19 @@ echo ""
 
 # 检查是否安装了vercel cli
 if ! command -v vercel &> /dev/null; then
-    echo "📦 安装Vercel CLI..."
-    npm install -g vercel
+    echo "📦 安装Vercel CLI（本地）..."
+    # 使用npx，无需全局安装
+    echo "将使用npx vercel（无需安装）"
 fi
+
+# 使用npx vercel（无需全局安装）
+VERCEL_CMD="npx vercel"
 
 # 检查是否登录
 echo "🔐 检查登录状态..."
-if ! vercel whoami &> /dev/null; then
+if ! $VERCEL_CMD whoami &> /dev/null; then
     echo "请先登录Vercel:"
-    vercel login
+    $VERCEL_CMD login
 fi
 
 # 构建前端
@@ -28,7 +32,7 @@ npm run build
 # 部署
 echo ""
 echo "🚀 部署到Vercel..."
-vercel --prod
+$VERCEL_CMD --prod
 
 echo ""
 echo "=========================================="

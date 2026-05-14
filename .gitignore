@@ -27,6 +27,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# 避免重复：public下的chapters_2000_words是复制品
+public/chapters_2000_words/
+
 # 数据库文件（根据需要选择是否提交）
 # *.db
 *.db-journal
@@ -63,3 +66,4 @@ Thumbs.db
 # 测试文件
 test-*.js
 test_*.html
+.vercel
